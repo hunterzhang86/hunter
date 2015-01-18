@@ -66,6 +66,7 @@ git pull origin master
 
 ##网站列表
 - [Hunter的时光机器](http://www.ihunter.me) - Hunter
+- [Jack's Blog](http://wuchong.me) - WuChong
 
 ##协议
 [MIT](/LICENSE)
