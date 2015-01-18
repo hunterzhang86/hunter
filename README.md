@@ -4,10 +4,31 @@
 
 Hunter主题由 [Jacman](https://github.com/wuchong/jacman) 主题修改而来，主要修改了以下内容：
 * 为了更便于搜索引擎爬到，添加了网站的keywords，您可以在hexo主配置文件subtitle后面添加keywords关键字，比如：keywords: word1, word2
+* 添加了网站地图widget
 * 修改了Jacman主题的字体
 * 修改了Jacman主题整体色调
 * 删除了Jacman主题中页面底部的个人简介
 * 其他一些细微的修改
+
+###添加RSS
+- hexo提供了RSS的生成插件，需要手动安装和设置。步骤如下：
+- 安装RSS插件到本地：npm install hexo-generator-feed
+- 开启RSS功能：编辑hexo/_config.yml，添加如下代码：
+```
+plugins:
+- hexo-generator-feed
+```
+- 然后在主题的配置文件中添加rss的widget即可
+
+###添加sitemap
+- hexo提供了sitemap的生成插件，需要手动安装和设置。步骤如下：
+- 安装RSS插件到本地：npm install hexo-generator-sitemap
+- 开启RSS功能：编辑hexo/_config.yml，添加如下代码：
+```
+plugins:
+- hexo-generator-sitemap
+```
+- 然后在主题的配置文件中添加sitemap的widget即可
 
 [主题演示](http://www.ihunter.me) | [Hunter的时光机器](http://www.ihunter.me)
 

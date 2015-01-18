@@ -16,10 +16,13 @@ widgets:
 - category
 - tag
 - links
-## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo
+## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo,sitemap
 
 #### RSS
 rss: /atom.xml ## RSS address.
+
+#### SiteMap
+sitemap: /sitemap.xml
 
 #### Image
 imglogo:
