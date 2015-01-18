@@ -35,7 +35,7 @@ plugins:
 ---
 以下是Jacman主题中原有的内容。
 
-[如何使用 Hunter 主题](http://wuchong.me/blog/2014/11/20/how-to-use-jacman/)
+[如何使用 Hunter 主题](http://www.ihunter.me/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8Hexo%E4%B8%BB%E9%A2%98Hunter.html)
 
 ##安装教程
 ###安装
