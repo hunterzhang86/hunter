@@ -1,7 +1,7 @@
 footer
   margin-top 1em
   background color-footer
-  padding 0 2% 0.5em
+  padding 0 2% 0.3em
 
 #footer
   width 95%
@@ -31,7 +31,7 @@ footer
   width w=(110/16)em
   height w
   margin 0 auto
-  background no-repeat url(root+author-img) left top 
+  background no-repeat url(root+author-img) left top
   background-size w w
   border-radius (w/2)
   transition transform 2s ease-out
@@ -46,7 +46,7 @@ footer
   if ShowCustomFont
     font-family font-custom-family
     font-smoothing()
-    font-size font-size+50
+    font-size font-size+30
     line-height 1.3em
   else
     font-family font-default
@@ -67,8 +67,8 @@ footer
   @media phone
     padding-left 20%
   @media mini
-    width 15em 
-    position absolute  
+    width 15em
+    position absolute
     right -2em
     top 3em
   a
@@ -76,7 +76,7 @@ footer
     display block
     width 14%
     color color-white
-    font-size font-size+85
+    font-size font-size+30
     padding 0.5em
     @media tablet
       padding 0.3em
@@ -86,7 +86,7 @@ footer
 .icon-weibo:before,.icon-github:before,.icon-twitter:before,.icon-facebook:before,.icon-stack-overflow:before,.icon-email:before,.icon-google_plus:before,.icon-linkedin:before
   font-family font-icon-family
   font-smoothing()
- 
+
 .icon-weibo:before
   content "\f18a"
 .icon-github:before

@@ -1,7 +1,7 @@
 .post,.page,.link,.photo
   background color-section
   a
-    color color-blue 
+    color color-blue
     &:hover
       color color-orange     //color-theme
 
@@ -16,7 +16,7 @@ article
       @media tablet
         font-size font-size+100
         padding-top 0.3em
-      word-wrap break-word 
+      word-wrap break-word
       word-break normal
       font-smoothing antialiased
       border-left 5px solid color-theme
@@ -40,7 +40,7 @@ article
         font-family font-icon-family
         font-size font-size+30
         content "\f017"
-        font-smoothing()      
+        font-smoothing()
   .article-content
     padding 1.5em 4%
     color color-content
@@ -74,14 +74,15 @@ article
     h4,h5,h6
       font-size font-size+40
     h1,h2,h3,h3,h4,h5,h6
-      color color-heading
+      color color-blue
       font-smoothing antialiased
       >code
         color darken(color-gray,20%)
-    hr 
+    hr
       border 1px solid lighten(color-gray,30%)
     strong
       font-weight bold
+      color color-orange
     em
       font-style italic
     acronym,abbr
@@ -141,15 +142,13 @@ article
       height auto
       vertical-align middle
       padding-top 0.5em
-      @media tablet 
+      @media tablet
         padding-top 0.7em
     .img-topic,.img-logo
       display none
     .img-center
-      display block 
+      display block
       margin auto
-    .img-shadow
-      box-shadow 0 0 2px 3px #ddd
     figcaption,.caption
       display block
       margin-top .3em
@@ -186,7 +185,7 @@ article
         border-bottom 2px solid lighten(color-gray,30%)
         padding 0.5em
         line-height: 1.3em
-      td 
+      td
         border-bottom 1px solid lighten(color-gray,30%)
         padding 0.5em
         line-height: 1.3em

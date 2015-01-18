@@ -9,7 +9,7 @@
     width 94%
   @media desktop
     width 82%
-    
+
 #main
   margin 1em 0 0
   line-height line-height+0.3
@@ -20,7 +20,7 @@
     transition margin 0.5s ease-out
   section.post
     background color-section
-    margin-bottom 0.125em
+    margin-bottom 1.5em
     a
       display block
       border-left 0.5em solid color-gray
@@ -36,10 +36,11 @@
       p
         color color-font
       time
-        color color-font
+        color color-orange
+        font-family font-mono
         display block
         margin 0.5em 0
-        font-size 0.9em
+        font-size 0.6em
   article.post-expand
     background color-section
     margin-bottom 3.5em
@@ -158,13 +159,14 @@
 
 .tag-icon:before
   content "\f02c"
-  
+
 .archive-icon:before
   content "\f187"
 
 .archive-title
   margin 1em 0
-  padding 2em
+  width 97%
+  padding 2em 0 2em 3%
   @media tablet
     margin 2em 0
     width 18.5%
@@ -183,13 +185,13 @@
       color color-theme
       transition color .5s
 .current
-  color color-orange !important
+  color color-theme !important
 
 .archive-part
   @media mini
-    min-height 200px
+     min-height 200px
   @media tablet
-    //width 78% !important
+    width 78% !important
     float right
     margin-left 2% !important
   section.post
@@ -199,7 +201,7 @@
       float left
       @media phonemax
         width 100%
-      @media phone
+      @media tablet
         width 20%
 /*    @media mini
       float left

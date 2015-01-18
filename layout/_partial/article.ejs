@@ -1,28 +1,30 @@
-<% if (theme.index.expand == true) { %> 
-    <% if (page.layout=='photo' && item.photos && item.photos.length){ %>
-      <%- partial('post/gallery') %>
+<% if (theme.index.expand == true) { %>
+    <% if (item.photos && item.photos.length){ %>
+    <%- partial('post/gallery') %>
     <% } %>
-    <article class="post-expand <%= item.layout %>" itemprop="articleBody"> 
+    <article class="post-expand <%= item.layout %>" itemprop="articleBody">
         <%- partial('post/header') %>
     <div class="article-content">
-        <% if (item.excerpt && index){ %>
+        <% if(item.description){ %>
+        <%- item.description %>
+        <% } else if (item.excerpt && index){ %>
         <%- item.excerpt %>
         <% } else { %>
         <%- item.content %>
         <% } %>
-        
+
         <p class="article-more-link">
-          <% if (item.excerpt && index && theme.index.excerpt_link){ %>
+          <% if (item.description && index && theme.index.excerpt_link){ %>
             <a href="<%- url_for(item.path) %>#more"><%= theme.index.excerpt_link %></a>
           <% } %>
-       </p>
+        </p>
     </div>
     <%- partial('post/footer', {index: true}) %>
     </article>
 <% }else{ %>
 <section class="post" itemscope itemprop="blogitem">
-  <% if (item.link) { %> 
-    <a href="<%- item.link %>" target="_blank"> 
+  <% if (item.link) { %>
+    <a href="<%- item.link %>" target="_blank">
   <% } else{ %>
     <a href="<%- config.root %><%- item.path %>" title="<%= item.title %>" itemprop="url">
   <% } %>
