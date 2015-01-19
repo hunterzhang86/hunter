@@ -31,10 +31,15 @@ plugins:
 ```
 - 然后在主题的配置文件中添加sitemap的widget即可
 
-###添加recentpost
-- hexo提供了recentpost的生成插件，需要手动安装和设置。步骤如下：
-- 安装recentpost插件到本地：npm install hexo-helper-recent_posts --save
-- 然后在主题的配置文件中添加recentpost的widget即可
+###添加recentposts
+- hexo提供了recentposts的生成插件，需要手动安装和设置。步骤如下：
+- 安装recentposts插件到本地：npm install hexo-helper-recent_posts --save
+- 开启recentposts功能：编辑hexo/_config.yml，添加如下代码：
+```
+plugins:
+- hexo-helper-recent_posts
+```
+- 然后在主题的配置文件中添加recentposts的widget即可
 
 [主题演示](http://www.ihunter.me) | [Hunter的时光机器](http://www.ihunter.me)
 

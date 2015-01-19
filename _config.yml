@@ -16,7 +16,7 @@ widgets:
 - category
 - tag
 - links
-## provide widgets:category,tag,rss,archive,tagcloud,links,weibo,sitemap,recentpost
+## provide widgets:category,tag,rss,archive,tagcloud,links,weibo,sitemap,recentposts
 
 #### RSS
 rss: /atom.xml ## RSS address.
