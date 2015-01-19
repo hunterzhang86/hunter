@@ -5,6 +5,7 @@
 Hunter主题由 [Jacman](https://github.com/wuchong/jacman) 主题修改而来，主要修改了以下内容：
 * 为了更便于搜索引擎爬到，添加了网站的keywords，您可以在hexo主配置文件subtitle后面添加keywords关键字，比如：keywords: word1, word2
 * 添加了网站地图widget
+* 添加了最新文章widget
 * 修改了Jacman主题的字体
 * 修改了Jacman主题整体色调
 * 删除了Jacman主题中页面底部的个人简介
@@ -29,6 +30,11 @@ plugins:
 - hexo-generator-sitemap
 ```
 - 然后在主题的配置文件中添加sitemap的widget即可
+
+###添加recentpost
+- hexo提供了recentpost的生成插件，需要手动安装和设置。步骤如下：
+- 安装recentpost插件到本地：npm install hexo-helper-recent_posts --save
+- 然后在主题的配置文件中添加recentpost的widget即可
 
 [主题演示](http://www.ihunter.me) | [Hunter的时光机器](http://www.ihunter.me)
 
