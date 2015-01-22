@@ -6,6 +6,7 @@ Hunter主题由 [Jacman](https://github.com/wuchong/jacman) 主题修改而来�
 * 为了更便于搜索引擎爬到，添加了网站的keywords，您可以在hexo主配置文件subtitle后面添加keywords关键字，比如：keywords: word1, word2
 * 添加了网站地图widget
 * 添加了最新文章widget
+* 添加了百度推荐
 * 修改了Jacman主题的字体
 * 修改了Jacman主题整体色调
 * 删除了Jacman主题中页面底部的个人简介
