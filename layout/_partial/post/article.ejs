@@ -2,7 +2,7 @@
   <% if (item.photos && item.photos.length){ %>
     <%- partial('gallery') %>
   <% } %>
-	<article itemprop="articleBody"> 
+	<article itemprop="articleBody">
 		<%- partial('header') %>
 	<div class="article-content">
 		<% if( table&&(item.toc !== false) && theme.toc.article){ %>
@@ -15,10 +15,15 @@
 		<% } %>
 		</div>
 		<% } %>
-		<%- item.content %>  
+		<%- item.content %>
 	</div>
-		<%- partial('footer') %>   	       
+
+	<% if (theme.baidu_tuijian.enable){ %>
+		<div id="<%= theme.baidu_tuijian.id %>" class="article-content"></div>
+	<% } %>
+
+		<%- partial('footer') %>
 	</article>
 	<%- partial('pagination') %>
 	<%- partial('comment') %>
-</div>  
+</div>

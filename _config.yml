@@ -101,6 +101,10 @@ cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id
 
+baidu_tuijian:
+  enable: false
+  id:   # e.g hm_t_51825 your baidu tiujian div id
+
 #### Miscellaneous
 ShowCustomFont: true  ## you can change custom font in `variable.styl` and `font.styl` which in the theme folder `/jacman/source/css`.
 fancybox: true        ## if you use gallery post or want use fancybox please set the value to true.
