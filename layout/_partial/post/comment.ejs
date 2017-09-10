@@ -10,3 +10,23 @@
   </div>
 </section>
 <% } %>
+<% if(((config.git_comment && config.git_comment.enable === true) || ( theme.git_comment && theme.git_comment.enable === true)) && page.comments) { %>
+<section id="comments" class="comment">
+  <div id="container"></div>
+  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+  <script>
+    var gitment = new Gitment({
+      id: document.location.href,
+      owner: "<%- theme.git_comment.owner %>",
+      repo: "<%- theme.git_comment.repo %>",
+      oauth: {
+        client_id: "<%- theme.git_comment.client_id %>",
+        client_secret: "<%- theme.git_comment.client_secret %>"
+      }
+    });
+
+    gitment.render('article-comment');
+  </script>
+</section>
+<% } %>

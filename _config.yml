@@ -32,6 +32,10 @@ favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put im
 apple_icon: img/favicon.jpg ## size:114px*114px,please put image into the theme folder `/jacman/source/img`.
 author_img:  ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
 
+# 代码高亮主题
+# available: default | night
+highlight_theme: night
+
 #### index post is expanding or not
 index:
   expand: true          ## default is unexpanding,so you can only see the short description of each post.
@@ -39,10 +43,10 @@ index:
 
 #### Author information
 author:
-  intro_line1:     ## your introduction on the bottom of the page
+  intro_line1:    ## your introduction on the bottom of the page
   intro_line2:    ## the 2nd line
-  weibo:    ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
-  weibo_verifier: ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
+  weibo: http://weibo.com/zzbolg   ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+  weibo_verifier: 09f6bcc5 ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:  ## e.g. 2176287895  Your weibo ID,It will be used in share button.
   douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
   zhihu:      ## e.g. jark  for http://www.zhihu.com/people/jark
@@ -65,7 +69,6 @@ toc:
 #### Links
 links:
   Hexo: http://hexo.io
-  Jacman: http://wuchong.me
   Hunter的时光机器: http://www.ihunter.me
   DigitalOcean: https://www.digitalocean.com/?refcode=ca6e33dd0964
   Linode: https://www.linode.com/?r=218734ebc6cd68f661f596d887a106fa038e0b86
@@ -78,8 +81,15 @@ links:
 
 
 #### Comment
-duoshuo_shortname:  ## e.g. hunterzhang   your duoshuo short name.
+duoshuo_shortname: ## e.g. hunterzhang   your duoshuo short name.
 disqus_shortname:  ## e.g. hunterzhang   your disqus short name.
+
+git_comment:
+  enable: true
+  owner: hunterzhang86
+  repo: blog_comments
+  client_id: e97ca5b8d3242b2f0d7e
+  client_secret: 6cf8fa9c842289c5c1e4e3f8427e4e730a66b4a6
 
 #### Share button
 jiathis:
@@ -95,7 +105,7 @@ google_analytics:
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
-  enable: enable
+  enable: false
   sitecode: ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
   enable: false
