@@ -19,7 +19,7 @@
 		<a href="<%- config.root %><%- item.path %>#disqus_thread" class="comments-count-link">Comments</a>
 	<% } else if(theme.git_comment && theme.git_comment.enable) { %>
 	  	<span></span>
-		<a href="<%- item.permalink %>#comments" class="comments-count-link" data-count-type="comments">评论</a>
+		<a href="<%- item.permalink %>" class="comments-count-link" data-count-type="comments">评论</a>
 	<% } %>
 </div>
 <% } %>
