@@ -17,7 +17,7 @@
   <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
   <script>
     var gitment = new Gitment({
-      id: document.location.href,
+      id: "<%- page.date %>",
       owner: "<%- theme.git_comment.owner %>",
       repo: "<%- theme.git_comment.repo %>",
       oauth: {
