@@ -13,11 +13,12 @@
 <% if(((config.git_comment && config.git_comment.enable === true) || ( theme.git_comment && theme.git_comment.enable === true)) && page.comments) { %>
 <section id="comments" class="comment">
   <div id="container"></div>
-  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+  <link rel="stylesheet" href="https://billts.site/extra_css/gitment.css">
+  <script src="https://billts.site/js/gitment.js"></script>
   <script>
     var gitment = new Gitment({
       id: "<%- page.date %>",
+      title: '<%= page.title %>',
       owner: "<%- theme.git_comment.owner %>",
       repo: "<%- theme.git_comment.repo %>",
       oauth: {
