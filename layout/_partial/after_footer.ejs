@@ -81,7 +81,7 @@ $(document).ready(function(){
 });
 </script>
 <% } %>
-<% if ((page.layout=='post'||page.layout=='page'||page.layout=='photo')&&!theme.jiathis.enable) { %>
+<% if ((page.layout=='post'||page.layout=='page'||page.layout=='photo')&&theme.jiathis.enable) { %>
 <script type="text/javascript">
 $(document).ready(function(){
   var $this = $('.share'),
@@ -112,6 +112,10 @@ $(document).ready(function(){
 </script>
 <% } %>
 
+<% if ((page.layout=='post' || page.layout=='page'||page.layout=='photo') && theme.baidushare.enable) { %>
+  <%- partial('_partial/post/baidushare') %>
+<% } %>
+
 <% if (theme.duoshuo_shortname){ %>
 <script type="text/javascript">
   var duoshuoQuery = {short_name:"<%= theme.duoshuo_shortname %>"};
@@ -125,6 +129,7 @@ $(document).ready(function(){
   })();
 </script>
 <% } %>
+
 <% if( (config.disqus_shortname || theme.disqus_shortname)) { %>
 <script type="text/javascript">
 <% if(config.disqus_shortname){ %>
