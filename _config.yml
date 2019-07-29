@@ -19,6 +19,7 @@ widgets:
 - recentposts
 - links
 - sitemap
+## 注意sitemap和recentposts需要安装插件，具体请参考readme.md
 ## provide widgets:category,tag,rss,archive,tagcloud,links,weibo,sitemap,recentposts
 
 #### RSS
