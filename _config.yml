@@ -14,8 +14,11 @@ menu:
 widgets:
 - weibo
 - category
+- archive
 - tag
+- recentposts
 - links
+- sitemap
 ## provide widgets:category,tag,rss,archive,tagcloud,links,weibo,sitemap,recentposts
 
 #### RSS
@@ -131,4 +134,5 @@ baidu_search:     ## http://zn.baidu.com/
   enable: false
   id:  ## "5557454446069356951" 百度站内的id，注意要加双引号
   site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
+
 
