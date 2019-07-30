@@ -73,7 +73,8 @@ toc:
 #### Links
 links:
   Hexo: http://hexo.io
-  NoOne的修炼场: http://www.ihunter.me
+  NoOne's Blog: http://www.ihunter.me
+  我的个人博客: http://www.ifb.me
   DigitalOcean: https://www.digitalocean.com/?refcode=ca6e33dd0964
   Linode: https://www.linode.com/?r=218734ebc6cd68f661f596d887a106fa038e0b86
 
@@ -135,5 +136,3 @@ baidu_search:     ## http://zn.baidu.com/
   enable: false
   id:  ## "5557454446069356951" 百度站内的id，注意要加双引号
   site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
-
-
