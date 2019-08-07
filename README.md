@@ -78,8 +78,8 @@ git pull origin master
  图片查看的 [Fancybox](http://fancyapps.com/fancybox/) 工具。
 
 ##网站列表
-- [Hunter的时光机器](http://www.ihunter.me) - Hunter
-- [Jack's Blog](http://wuchong.me) - WuChong
+- [Hunter的时光机器](http://www.ifb.me) - Hunter
+- [NoOne's Blog](http://www.ifb.me) - NoOne
 
 ##协议
 [MIT](/LICENSE)
